@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: linear-gradient(135deg, #245dc6, #c5c8cc);
+color:rgba(255, 255, 255, 0.471);
+}
+
+
+
+.wrapper{
+background:rgba(150, 29, 29, 0.1);
+padding:40px;
+border-radius:20px;
+backdrop-filter:blur(12px);
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+width:350px;
+text-align:center;
+animation:fadeIn 1s ease;
+}
+
+h1{
+margin-bottom:20px;
+}
+
+.box{
+margin:15px 0;
+}
+
+.currency{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:10px;
+}
+
+.currency img{
+width:40px;
+border-radius:50%;
+}
+
+select{
+flex:1;
+padding:8px;
+border-radius:8px;
+border:none;
+}
+
+input{
+width:100%;
+padding:10px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+.swap button{
+background:#00ffc3;
+border:none;
+padding:8px 15px;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.swap button:hover{
+transform:rotate(180deg);
+}
+
+.convert{
+margin-top:20px;
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+background:rgb(10, 207, 109);
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.convert:hover{
+background:#00d4a0;
+transform:scale(1.05);
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
