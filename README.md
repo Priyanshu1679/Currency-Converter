@@ -23,13 +23,5 @@ This project uses **Fetch API** to get real-time exchange rates and allows users
 * Exchange Rate API
 * Flags API
 
-## 📂 Project Structure
 
-```
-currency-converter/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+
